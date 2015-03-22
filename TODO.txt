@@ -1,0 +1,28 @@
+Add idea
+	+ Add random hand of cards
+	+ Add categories (trends) as selectable tags
+	Style form
+
+Trends
+	+ Add trend model name:string description:text post_count:integer
+
+Post index
+	Add category count to sidebar
+	Add featured ideas to sidebar
+	Add search to sidebar
+	Add comment stream to sidebar
+
+Idea show
+	Add comment threads
+	+ Add category tags
+	Add upvote/downvote for comments
+
+Other
+	Badging
+	Idea scoring
+
+Signup/Signin
+	Styling
+
+Front page (pre-signin)
+	Content

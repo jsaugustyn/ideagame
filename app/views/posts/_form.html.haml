@@ -1,0 +1,9 @@
+= simple_form_for @post do |f|
+	= f.association :trends, collection: @five_random_trends.map{|t| [t.title, t.id]}, as: :check_boxes
+	
+	= f.input :image
+	= f.input :title
+	= f.input :link
+	= f.input :description
+
+	= f.button :submit
