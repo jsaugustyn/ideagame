@@ -1,8 +1,6 @@
 source 'https://rubygems.org'
 
-
 gem 'rails', '4.2.0.beta2'
-gem 'sqlite3'
 gem 'sass-rails', '~> 5.0.0.beta1'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
@@ -18,6 +16,8 @@ gem 'acts_as_votable', '~> 0.10.0'
 gem 'bootstrap-sass', '~> 3.3.4.1'
 
 group :development, :test do
+  gem 'sqlite3'
+
   # Call 'debugger' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
@@ -28,9 +28,8 @@ group :development, :test do
   gem 'spring'
 end
 
-group :production do 
-	gem 'pg' 
+group :production do
+  gem 'pg',             '0.17.1'
+  gem 'rails_12factor', '0.0.2'
 end
-
-gem 'rails_12factor', group: :production
 
