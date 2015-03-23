@@ -1,10 +1,11 @@
-%h1 Add new idea
+%div.container
+	%h1 Add new idea
 
--#Change the following once you implement the Trend model
--# @random_posts = Post.where.not(id: @post).order("RANDOM()").all[0,5]
--#%ul
--#	- @random_posts.each do |c|
--#		%li= check_box_tag ''
--#		%p= link_to c.title, c, target: "_blank"
+	-#Change the following once you implement the Trend model
+	-# @random_posts = Post.where.not(id: @post).order("RANDOM()").all[0,5]
+	-#%ul
+	-#	- @random_posts.each do |c|
+	-#		%li= check_box_tag ''
+	-#		%p= link_to c.title, c, target: "_blank"
 
-= render 'form'
+	= render 'form'
